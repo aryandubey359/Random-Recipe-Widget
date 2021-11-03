@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+img{
+  max-width: 100%;
+}
+.mobile-container{
+  border-radius: 10px;
+  background-color: #FFDEE9;
+  background-image: linear-gradient(0deg, #FFDEE9 1%, #B5FFFC 100%);
+  width: 400px;
+  box-shadow: 0 0 10 10px rgba(0, 0, 0, 0.1);
+}
+.search-tab{
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+input{
+  border: none;
+  width: 150px;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  padding: 0.3rem;
+}
+.search-tab button  {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.fav-container{
+  text-align: center;
+  background-color: #ffeef8;
+  border-radius: 10px;
+}
+h3{
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+ul{
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+ul li{
+  list-style-type: none;
+}
+ul li img{
+  height: 85px;
+  width: 86px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.1px solid #333;
+}
+ul li span{
+  font-size: 1rem;
+}
+.random-meals{
+  margin: 1rem;
+  border-radius: 3px;
+}
+.random{
+  display: block;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.meal{
+  box-shadow: 0 0 10 10px rgba(0, 0, 0);
+}
+.meal-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.meal-header img{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 10px ;
+}
+.meal-body{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0.5rem;
+  font-weight: lighter;
+}
+.meal-body span{
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+}
+.btn{
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: white;
+}

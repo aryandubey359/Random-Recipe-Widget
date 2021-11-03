@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Recipe App</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="mobile-container">
+      <div class="search-tab">
+        <input type="text" name="search" id="term" />
+        <button class="search" id="search"><i class="fas fa-search"></i></button>
+      </div>
+      <div class="fav-container">
+        <h3>Favourite Recipes</h3>
+        <ul>
+          <li>
+            <img src="./Media/Salad Bowl.jpg" alt="" /> <span>Salad Bowl</span>
+          </li>
+          <li>
+            <img src="./Media/Ice-cream Cone.jpg" alt="" />
+            <span>Ice-cream Cone</span>
+          </li>
+          <li><img src="./Media/Burger.jpg" alt="" /> <span>Burger</span></li>
+          <li>
+            <img src="./Media/Toast Sandwich.jpg" alt="" />
+            <span>Toast Sandwich</span>
+          </li>
+        </ul>
+      </div>
+      <div class="random-meals" id="randomMeals"><span class="random"><h3>Random Recipes </h3></span>
+        <div class="meal">
+          <div class="meal-header">
+            <img src="" alt="Meal Image" />
+          </div>
+          <div class="meal-body">
+            <span>Meal Name (country)</span>
+            <button class="btn" id="btn" onclick="addtofav()" style="color: white;"><i class="fas fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
