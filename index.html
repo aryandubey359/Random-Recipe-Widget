@@ -16,8 +16,11 @@
       <div class="search-tab">
         <h1>Random Recipe Widget</h1>
         <h4>Created and Maintained by Aryan Dubey</h4>
-        <!-- <input type="text" name="search" id="term" />
-        <button class="search" id="search"><i class="fas fa-search"></i></button> -->
+        <div class="search-header">
+          <form id="form">
+            <input type="text" name="search" id="term" placeholder="Search for recipes"/>
+          <button class="search" id="search" onclick="submit"><i class="fas fa-search"></i></button></div>
+          </form>
       </div>
       <div class="fav-container" id="favcontainer">
         <button id="generate" class="generate" onclick="randomRecipe()">

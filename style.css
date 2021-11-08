@@ -21,7 +21,7 @@ img{
   background-color: #FFDEE9;
   background-image: linear-gradient(0deg, #FFDEE9 1%, #B5FFFC 100%);
   width: 375px;
-  height: 650px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,6 +35,14 @@ img{
   align-items: center;
   padding: 1rem;
 }
+
+.search-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
 input{
   border: none;
   width: 150px;
@@ -88,9 +96,22 @@ h3{
 .fav-container ul li span{
   font-size: 10rem;
 }
+
+.randomisation.null{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56%;
+}
+
+.randomisation{
+  height: 56%;
+  overflow: auto;
+}
+
 .random-meals{
   margin: 1rem;
-  border-radius: 3px;
+  border-radius: 3px;   
 }
 .random{
   display: block;
