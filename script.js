@@ -40,7 +40,8 @@ function showRandomMeal(mealData) {
             </ul>
             <h4>Recipe:</h4>
             <br>
-            <p>${mealData.strInstructions}</p>
+            <p>${mealData.strInstructions}</p><br>
+            <div class="moreinfo" id="moreinfo"><h4>Want to know more about the Dish?</h4><a href="${mealData.strSource}}" target="_blank"><button class="btninfo"><i class="fas fa-info"></i></button></a></div>
           </div>
         </div>
     </div>
